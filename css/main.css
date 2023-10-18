@@ -234,7 +234,6 @@ p {
   
     display: flexbox;
     position: absolute;
-    margin-top: 3600px;
     margin-bottom: 0px;
     text-align: center;
     box-sizing: 5px;
@@ -242,15 +241,18 @@ p {
   }
   
   
-
   .icon {
     border-radius: 90%;
 
   }
+body{
+  height: 100px;
 
+}
   main {
 
     height: 90vh;
+
   }
 
 
