@@ -29,7 +29,7 @@ function cargarProductos() {
     div.innerHTML = `
         <div class="card producto">
         <h2 class="h2-jm">${product.nombre}</h2>
-        <img class="img-serv" src="./img/${product.img}" alt="imagen de referencia de desarrolador"> 
+        <img class="img-serv" src="../img/${product.img}" alt="imagen de referencia de desarrolador"> 
         <p class="producto-precio">${product.precio}</p>
         <button class="button-main" id="${product.id}">Agregado</button>
       </div>`;
