@@ -1,0 +1,589 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.letrasFinales{
+align-items: center;
+padding-inline: 60px;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 2px;
+font-size: large;
+text-decoration: solid;
+}
+.carrito-vacio{
+align-items: center;
+padding-inline: 60px;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 2px;
+font-size: large;
+text-decoration: solid;
+}
+header {
+  background-image: url('../img/zyro-image.png');
+  padding: 90px;
+  box-shadow: 0px 15px 25px rgba(157, 157, 158, 0.795);
+  margin-bottom: 5px;
+  align-items: center;
+  overflow: hidden;
+  background-size: cover;
+}
+.contenedor-carrito{
+  background-color: #eb717110;
+   max-width: 900vh;
+   padding: 0;
+   align-items: center;
+}
+.carrito-acciones-vaciar{
+ 
+  text-decoration: none;
+  padding: 10px;
+  display: flexbox;
+  display: inline-block;
+  margin-left: 40px;
+  border-radius: 20%;
+  margin: 5px;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform:initial;
+  background-color: rgb(184, 166, 154);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: large;
+  transition: 0.3s;
+  border: none;
+}
+.carrito-acciones-vaciar:hover{
+  box-shadow: -10px 10px 20px 0px rgba(233, 12, 12, 0.842);
+  background-image: linear-gradient(rgba(6, 6, 8, 0.89), rgb(80, 2, 2));
+
+}
+.carrito-acciones-comprar{
+ 
+  text-decoration: none;
+  padding: 10px;
+  display: flexbox;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 40%;
+  margin: 5px;
+  margin-bottom: 20px;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform:initial;
+  background-color: rgb(184, 166, 154);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: large;
+  transition: 0.3s;
+  border: none;
+}
+.carrito-acciones-comprar:hover{
+  box-shadow: -10px 10px 20px 0px rgba(12, 233, 42, 0.637);
+  background-image: linear-gradient(rgba(6, 6, 8, 0.89), rgb(2, 80, 25));
+
+}
+
+div .carrito-productos{
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: center;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: auto;
+}
+.icon {
+  width: 40px;
+  margin-left: 90%;
+  transition: all 1s;
+  text-decoration: none;
+  border-radius: 90%;
+
+}
+
+  li a  {
+  text-decoration: none;
+  padding: 10px;
+  display: flexbox;
+  display: inline-block;
+  margin-left: 40px;
+  border-radius: 20%;
+  margin: 5px;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform:initial;
+  background-color: rgb(184, 166, 154);
+  color: rgb(253, 253, 253);
+  border-radius: 10px;
+  font-size: large;
+  transition: 0.3s;
+  border: none;
+  box-shadow: -10px 5px 20px 10px rgba(155, 154, 154, 0.541);
+}
+.titulo-principal{
+  text-align: center;
+  size: 300px;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 10px;
+}
+
+ li a:hover {
+    box-shadow: 10px 5px 20px 2px rgba(82, 80, 192, 0.959);
+    background-image: linear-gradient(rgba(50, 10, 194, 0.89), rgb(31, 0, 88));
+}
+
+.icon a {
+  color: white;
+  display: block;
+  border-radius: 20%;
+  align-items: center;
+  text-align: center;
+  margin: 2px;
+  background-color: rgba(255, 240, 230, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 10px 40px 0px rgba(16, 12, 233, 0.959);
+  transition: 0.1s;
+  border: none;
+}
+
+.icon a:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
+  box-shadow: -10px 10px -20px 20px rgba(16, 12, 233, 0.959);
+  background-image: linear-gradient(rgba(14, 1, 61, 0.89), rgb(63, 5, 170));
+
+}
+.texto-footer{
+ 
+  display: flexbox;
+  position: absolute;
+  margin-bottom: 0%;
+  align-items: center;
+    padding: 10px;
+  
+}
+img {
+  transition: 0.5s;
+  border-radius: 80%;
+}
+
+img:hover {
+
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+
+h1 {
+
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: .3s;
+  cursor: pointer;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #ffffff;
+  background-image: linear-gradient(to left, #ff0303, #ffffff, black, #c4c4c40e);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  animation: move 15s linear infinite;
+}
+
+@keyframes move {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+h1:hover {
+  transition: 0s;
+  color: #ffffff;
+  text-shadow: 0 0 10px #b3151c, 0 0 300px #b3151d;
+}
+
+h2 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+
+/*mq de mobile */
+@media screen and (max-width: 800px) {
+  .texto-footer{
+  
+    display: flexbox;
+    position: absolute;
+    margin-top: 3600px;
+    margin-bottom: 0px;
+    text-align: center;
+    box-sizing: 5px;
+    padding: 10px;
+  }
+  
+  
+
+  .icon {
+    border-radius: 90%;
+
+  }
+
+  main {
+
+    height: 90vh;
+  }
+
+
+  .container-card {
+    display: flex;
+    margin-top: 0px;
+    gap: 30px;
+    padding-inline: 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    scroll-behavior: auto;
+    grid-auto-flow: column;
+    user-select: none;
+  }
+
+  .card {
+    flex: flex;
+    scroll-snap-align: start;
+    width: 200px;
+    height: 350px;
+    padding: 40px;
+    gap: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    user-select: none;
+    object-fit: cover;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 15px 50px 10px rgb(255, 196, 192);
+  }
+
+  h2 {
+    padding: 0px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .h2-jm {
+
+    font-size: 25px;
+  }
+
+  p {
+    padding-top: 40px;
+
+  }
+
+  .button-main {
+    background-color: rgb(236, 166, 116);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-inline: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: large;
+    transition: 0.3s;
+    border: none;
+
+  }
+
+  .button-main:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+
+
+
+  }
+
+  img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  .card:hover {
+    box-shadow: 0px 10px 20px 0px rgba(255, 106, 96, 0.959);
+  }
+
+  .botones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*manda los botones al extremo de la pantalla*/
+    padding: 10px;
+    font-size: 10x;
+    color: rgb(99, 97, 97);
+    scroll-behavior: smooth;
+  }
+
+  .botones:hover {
+    cursor: pointer;
+    background: none;
+    color: black;
+    font-weight: semibold;
+  }
+
+  .boton-der {
+
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    user-select: none;
+    cursor: poin;
+    transition: all 1s ease;
+    box-shadow: 0px 15px 25px rgba(118, 139, 123, 0.384),
+      0px 15px 25px rgba(232, 235, 232, 0.384);
+  }
+
+  .boton-der:hover {
+    box-shadow: 10px 10px 20px 0px rgba(255, 106, 96, 0.959);
+
+    background-image: linear-gradient(rgba(253, 0, 0, 0.89), rgba(255, 72, 0, 0.199));
+
+  }
+
+  .boton-izq {
+
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    user-select: none;
+    cursor: poin;
+    transition: all 1s ease;
+    box-shadow: 0px 15px 25px rgba(118, 139, 123, 0.384),
+      0px 15px 25px rgba(232, 235, 232, 0.384);
+  }
+
+  .boton-izq:hover {
+    box-shadow: -10px 10px 20px 0px rgba(255, 106, 96, 0.959);
+    background-image: linear-gradient(rgba(253, 0, 0, 0.89), rgba(255, 72, 0, 0.199));
+  }
+
+  .container-card::-webkit-scrollbar {
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+    object-position: center;
+  }
+
+  header {
+    padding: 0px 0px 10px 10px;
+
+    object-position: center;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+
+
+}
+
+/*mq de tablet */
+@media screen and (min-width: 800px) {
+
+
+  .icon {
+    margin-left: 95%;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  .icon:hover {
+    box-shadow: none;
+  }
+
+
+  .container-card {
+
+    display: grid;
+    height: 150vh;
+    width: 100px;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: auto;
+  }
+
+  .card {
+    width: 250px;
+    height: 450px;
+    padding: 35px;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px 25px rgba(118, 139, 123, 0.384);
+    transition: 0.5s;
+  }
+
+  .card:hover {
+    font-weight: 490;
+    box-shadow: 0px 10px 20px 0px rgba(255, 106, 96, 0.959);
+    color: black;
+    transition: 0.3s;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .botones {
+    display: none;
+  } 
+
+  header {
+    padding: 0px 0px 0px 0px;
+    object-position: center;
+    align-items: center;
+    margin-bottom: 1px;
+  }
+
+  img:hover {
+    margin: 20px;
+  }
+
+  .button-main {
+    background-color: rgb(236, 166, 116);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-inline: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+    transition: 0.3s;
+    border: none;
+  }
+
+  .button-main:hover {
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+
+  }
+
+}
+
+/*mq de desktop */
+@media screen and (min-width: 1240px) {
+
+
+
+  .container-card {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .card {
+    display: flexbox;
+    overflow: hidden;
+    width: 300px;
+    height: 480px;
+    padding: 1px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px 25px rgba(118, 139, 123, 0.384);
+  }
+
+  .card:hover {
+    box-shadow: 0px 10px 20px 0px rgba(255, 106, 96, 0.959);
+    transform: none;
+
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+   .botones {
+    display: none;
+  } 
+
+  p {
+    margin-top: 20px;
+  }
+
+  img {
+    margin-top: 10px;
+  }
+
+  img:hover {
+    margin: 10px;
+  }
+
+
+  .button-main {
+    background-color: rgb(236, 166, 116);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-inline: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button-main:hover {
+    transition: 1s;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+  }
+
+
+}
