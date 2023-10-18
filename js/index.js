@@ -27,7 +27,7 @@ const pizzas = [
     nombre: "Jamon",
     precio: 3500,
     cantidad: 0,
-    img: "jamon--img.jpg",
+    img: "./Jamon--img.jpg",
   },
   {
     id: 5,
