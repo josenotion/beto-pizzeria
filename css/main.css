@@ -5,6 +5,7 @@
 
 span {
   text-decoration: none;
+  user-select: none;
   font-family: 'Poppins', sans-serif;
 
 }
@@ -13,6 +14,7 @@ span {
 .letrasFinales{
 align-items: center;
 padding-inline: 60px;
+user-select: none;
 font-family: 'Poppins', sans-serif;
 letter-spacing: 2px;
 font-size: large;
@@ -24,6 +26,7 @@ padding-inline: 60px;
 font-family: 'Poppins', sans-serif;
 letter-spacing: 2px;
 font-size: large;
+user-select: none;
 text-decoration: solid;
 }
 header {
@@ -71,6 +74,7 @@ header {
   text-decoration: none;
   padding: 10px;
   display: flexbox;
+  user-select: none;
   display: inline-block;
   margin-left: 10px;
   border-radius: 40%;
@@ -102,6 +106,7 @@ div .carrito-productos{
   flex-direction: center;
   justify-content: center;
   gap: 10px;
+  user-select: none;
   align-items: center;
   margin: auto;
 }
@@ -111,6 +116,7 @@ div .carrito-productos{
   transition: all 1s;
   text-decoration: none;
   border-radius: 90%;
+  user-select: none;
 
 }
 
@@ -119,6 +125,7 @@ div .carrito-productos{
   padding: 10px;
   display: flexbox;
   display: inline-block;
+  user-select: none;
   margin-left: 40px;
   border-radius: 20%;
   margin: 5px;
@@ -139,6 +146,7 @@ div .carrito-productos{
   size: 300px;
   font-family: 'Prompt', sans-serif;
   letter-spacing: 10px;
+  user-select: none;
 }
 
  li a:hover {
@@ -332,6 +340,7 @@ body{
   .botones {
     display: flex;
     align-items: center;
+    user-select: none;
     justify-content: space-between;
     /*manda los botones al extremo de la pantalla*/
     padding: 10px;
