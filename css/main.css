@@ -232,12 +232,8 @@ p {
 @media screen and (max-width: 800px) {
   .texto-footer{
   
-    display: flexbox;
-    position: absolute;
-    margin-bottom: 90%;
-    text-align: center;
-    box-sizing: 5px;
-    padding: 10px;
+    display: none;
+
   }
   
   
