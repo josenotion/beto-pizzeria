@@ -234,7 +234,7 @@ p {
   
     display: flexbox;
     position: absolute;
-    margin-bottom: 0px;
+    margin-bottom: 90%;
     text-align: center;
     box-sizing: 5px;
     padding: 10px;
