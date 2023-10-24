@@ -104,3 +104,15 @@ botonComprar.addEventListener("click", () => {
  
 });
 
+
+// obtener el modo actual 
+const btnSwitch =document.querySelector ("#switch");
+
+
+if (localStorage.getItem ("dark-mode") === "true" ){
+  document.body.classList.add("dark");
+  btnSwitch.classList.add("active");
+}else {
+  document.body.classList.remove("dark");
+  btnSwitch.classList.remove("active");
+}
